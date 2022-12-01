@@ -9,7 +9,7 @@ fn read_buf_lines(filename: impl AsRef<Path>) -> Vec<String> {
 }
 
 fn main() {
-    let input_vec = read_buf_lines("src/input.txt");
+    let input_vec = read_buf_lines("input.txt");
     let mut max: i32 = 0;
     let mut top_3: Vec<i32> = vec!(0, 0, 0);
     let mut cnt: i32 = 0;
